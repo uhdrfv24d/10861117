@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+
+    <div is="page" id="home" data-role="page" style="background:-webkit-linear-gradient(rgb(8, 8, 8),rgb(8, 8, 0))">
+        <div is="header" data-role="header" data-position="fixed" data-theme="b">
+            <h3>智慧手機</h3>
+            <a class="ui-btn ui-btn-left  ui-btn-icon-left ui-icon-home ui-btn-icon-notext ui-corner-all" data-transition="slide" href="index.html" rel="external">Back</a>
+        </div>
+        <div is="content" role="main" class="ui-content">
+            <ul is="listview" data-role="listview" data-inset="true" style="margin-top:0;">
+                <li is="list-divider" data-role="list-divider" style="text-align:center;font-size:20px; background:-webkit-linear-gradient(#66f,#33a); color:#fff;"></li>
+            </ul>
+            <ul is="listview" data-role="listview" data-inset="true" id="hero_list" style="margin:0;">
+                <li is="listview-li" >
+                    <a href="#Content1" data-transition="slide">
+                    <img src="images/phone/p1.jpeg" style="height:100%;">
+                    <h2 style="margin:17px 0 0 -10px;">IPHONE 11 Pro 512GB-銀色</h2>
+                  </a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content2" data-transition="flip">
+                    <img src="images/phone/p2.jpeg" style="height:100%;">
+                    <h2 style="margin:17px 0 0 -10px;">SAMSUNG Note10 N9700 8G/256G-星環白</h2>
+                    </a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content3" data-transition="slideup">
+                    <img src="images/phone/p3.jpeg" style="height:100%;">
+                    <h2 style="margin:17px 0 0 -10px;">Panasonic 行動電話 VS-200 4G-黑色</h2>
+                    </a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content4" data-transition="slidedown">
+                    <img src="images/phone/p4.jpeg" style="height:100%;">
+                    <h2 style="margin:17px 0 0 -10px;">ASUS ZenFone Max M2 ZB633KL(3G/32G)-藍色</h2>
+                    </a>
+                </li>
+                <li is="listview-li">
+                    <a href="#Content5" data-transition="pop">
+                    <img src="images/phone/p5.jpeg" style="height:100%;">
+                    <h2 style="margin:17px 0 0 -10px;">G-PLUS GB301 4G行動電話</h2>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 鋼鐵人 Page: Content  -->
+    <div id="Content1" data-role="page">
+
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>IPHONE 11 Pro 512GB-銀色</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;"></div>
+        </div>
+
+        <!-- <div class="ui-block-a" style="text-align: center; height:100%">
+          <img src="images/carrefour1/carrefour2.png" style="width: 100%">
+          <h5>食材</h5>
+        </div> -->
+
+        <div style="height: 50%;margin-top: 40px;">
+          <img src="images/phone/p11.png" style="width: 100%">
+        </div>
+
+    </div>
+
+    <!-- 美國隊長 Page: Content  -->
+    <div id="Content2" data-role="page">
+
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>SAMSUNG Note10 N9700 8G/256G-星環白</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;"></div>
+        </div>
+
+        <!-- <div class="ui-grid-a" style="height: 140px;margin-top: 40px;">
+
+          <div class="ui-block-a" style="text-align: center;">
+          <!-- <div class="ui-bar ui-bar-a" style="height:60px"> -->
+          <!-- <img src="images/carrefour1/carrefour3.png" style="width: 200px">
+          <h5>食材</h5> -->
+          <!-- </div> -->
+          <!-- </div>
+
+          <div class="ui-block-b" style="text-align: center;"> -->
+          <!-- <div class="ui-bar ui-bar-a" style="height:60px"> -->
+          <!-- <img src="images/carrefour1/carrefour4.png" style="width: 200px">
+          <h5>調味料</h5> -->
+          <!-- </div> -->
+          <!-- </div>
+
+        </div><!-- /grid-b -->
+
+        <div style="height: 50%;margin-top: 40px;">
+          <img src="images/phone/p22.png" style="width: 100%">
+        </div>
+
+    </div>
+
+    <!-- 蜘蛛人 Page: Content  -->
+    <div id="Content3" data-role="page">
+
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>Panasonic 行動電話 VS-200 4G-黑色</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;"></div>
+        </div>
+
+        <!-- <div class="ui-block-a" style="text-align: center; height:100%">
+          <img src="images/carrefour1/carrefour5.png" style="width: 100%">
+          <h5>食材</h5>
+        </div> -->
+
+        <div style="height: 50%;margin-top: 40px;">
+          <img src="images/phone/p33.png" style="width: 100%">
+        </div>
+
+    </div>
+
+
+
+
+-----------------------------------------------------------------------------------------------------
+
+    <!-- <div class="ui-grid-a" style="height: 140px;margin-top: 40px;">
+
+      <div class="ui-block-a" style="text-align: center;">
+      <!-- <div class="ui-bar ui-bar-a" style="height:60px"> -->
+      <!-- <img src="images/carrefour1/13.jpg" style="width: 100px">
+      <h5>食材</h5> -->
+      <!-- </div> -->
+      <!-- </div>
+
+      <div class="ui-block-b" style="text-align: center;"> -->
+      <!-- <div class="ui-bar ui-bar-a" style="height:60px"> -->
+      <!-- <img src="images/carrefour1/13.jpg" style="width: 100px">
+      <h5>食材</h5> -->
+      <!-- </div> -->
+      <!-- </div>
+
+    </div><!-- /grid-b -->
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+    <!-- 浩克 Page: Content  -->
+    <div id="Content4" data-role="page">
+
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>ASUS ZenFone Max M2 ZB633KL(3G/32G)-藍色</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;"></div>
+        </div>
+
+        <!-- <div class="ui-grid-a" style="height: 140px;margin-top: 40px;">
+
+          <div class="ui-block-a" style="text-align: center;">
+          <!-- <div class="ui-bar ui-bar-a" style="height:60px"> -->
+          <!-- <img src="images/carrefour1/14.png" style="width: 600px">
+          <h5>食材</h5> -->
+          <!-- </div> -->
+          <!-- </div>
+
+          <div class="ui-block-b" style="text-align: center;"> -->
+          <!-- <div class="ui-bar ui-bar-a" style="height:60px"> -->
+          <!-- <img src="images/carrefour1/carrefour6.png" style="width: 600px">
+          <h5>調味料</h5> -->
+          <!-- </div> -->
+          <!-- </div> -->
+
+        <!-- </div><!-- /grid-b -->
+
+        <div style="height: 50%;margin-top: 40px;">
+          <img src="images/phone/p44.png" style="width: 100%">
+        </div>
+
+    </div>
+
+    <!-- 雷神索爾 Page: Content  -->
+    <div id="Content5" data-role="page">
+
+        <div data-role="header" data-position="fixed" data-theme="b">
+            <h3>G-PLUS GB301 4G行動電話</h3>
+            <a class="ui-btn ui-btn-left" href="#home" data-transition="slide" data-direction="reverse">Back</a>
+        </div>
+
+        <div class="ui-content">
+            <div id="hero" style="font-size:20px; font-weight:bold; width:100%; text-align:center;"></div>
+        </div>
+
+        <!-- <div class="ui-grid-a" style="height: 140px;margin-top: 40px;">
+
+          <div class="ui-block-a" style="text-align: center;">
+          <!-- <div class="ui-bar ui-bar-a" style="height:60px"> -->
+          <!-- <img src="images/carrefour1/carrefour7.png" style="width: 180px">
+          <h5>食材</h5> -->
+          <!-- </div> -->
+          <!-- </div>
+
+          <div class="ui-block-b" style="text-align: center;"> -->
+          <!-- <div class="ui-bar ui-bar-a" style="height:60px"> -->
+          <!-- <img src="images/carrefour1/carrefour8.png" style="width: 250px">
+          <h5>調味料</h5> -->
+          <!-- </div> -->
+          <!-- </div>
+
+        </div><!-- /grid-b -->
+
+
+        <div style="height: 50%;margin-top: 40px;">
+          <img src="images/phone/p55.png" style="width: 100%">
+        </div>
+
+
+    </div>
+
+</body>
+</html>
